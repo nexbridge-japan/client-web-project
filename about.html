@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>会社案内 | 株式会社 奥工務店</title>
+<style>
+body { margin: 0; padding: 0; font-family: "Times New Roman", "Yu Mincho", "游明朝", serif; background-color: #f9f6f0; color: #2c2520; line-height: 1.9; letter-spacing: 0.05em; }
+header { background-color: rgba(255, 255, 255, 0.95); border-bottom: 1px solid #e3dbc8; padding: 25px 8%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+.logo h1 { margin: 0; font-size: 26px; color: #4a3b32; font-weight: 500; letter-spacing: 0.1em; }
+nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 35px; }
+nav a { text-decoration: none; color: #4a3b32; font-weight: bold; font-size: 14px; font-family: sans-serif; }
+nav a:hover { color: #aa8755; }
+.container { max-width: 800px; margin: 60px auto; padding: 0 20px; }
+h2 { font-size: 28px; color: #4a3b32; text-align: center; font-weight: 400; margin-bottom: 50px; position: relative; padding-bottom: 15px; }
+h2::after { content: ''; position: absolute; width: 40px; height: 1px; bottom: 0; left: 50%; transform: translateX(-50%); background-color: #aa8755; }
+.info-table { width: 100%; border-collapse: collapse; margin-top: 30px; background: white; border: 1px solid #eee6d8; }
+.info-table th, .info-table td { padding: 25px; border-bottom: 1px solid #eee6d8; text-align: left; }
+.info-table th { width: 30%; background-color: #fdfcf9; color: #4a3b32; font-weight: 500; }
+footer { background-color: #2c2520; color: #e3dbc8; text-align: center; padding: 40px 20px; font-size: 12px; margin-top: 100px; font-family: sans-serif; }
+@media (max-width: 900px) { nav ul { display: none; } .info-table th, .info-table td { display: block; width: 100%; box-sizing: border-box; } .info-table th { background-color: #fdfcf9; } }
+</style>
+</head>
+<body>
+<header>
+<div class="logo">
+<h1>株式会社 奥工務店</h1>
+</div>
+<nav>
+<ul>
+<li><a href="index.html">奥工務店の家づくり</a></li>
+<li><a href="gallery.html">施工事例</a></li>
+<li><a href="about.html" style="color: #aa8755;">会社案内</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</nav>
+</header>
+<div class="container">
+<h2>会社案内</h2>
+<table class="info-table">
+<tr><th>会社名</th><td>株式会社 奥工務店</td></tr>
+<tr><th>所在地</th><td>（ここに住所が入ります）</td></tr>
+<tr><th>電話番号</th><td>（ここに電話番号が入ります）</td></tr>
+<tr><th>事業内容</th><td>注文住宅の設計・施工、リフォーム、古民家再生事業</td></tr>
+</table>
+</div>
+<footer><p>&copy; 株式会社 奥工務店 All Rights Reserved.</p></footer>
+</body>
+</html>
